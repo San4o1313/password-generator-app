@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Password App</title>
+	<script src="./script.js" defer></script>
+	<link rel="stylesheet" href="./style.css">
+	<script src="https://kit.fontawesome.com/5c4190b7d5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<div id="main-cont">
+		<div id="pw-cont">
+			<input type="text" name="" id="password">
+		</div>
+		<div id="check-cont">
+			<div class="check">
+				<label for="number">Password length</label>
+				<input type="number" name="" id="number" min="4" max="30" value="8">
+			</div>
+			<div class="check">
+				<label for="digits">Contain Digits</label>
+				<input type="checkbox" name="" id="digits">
+			</div>
+			<div class="check">
+				<label for="apper">Contain Uppercase letters</label>
+				<input type="checkbox" name="" id="upper">
+			</div>
+			<div class="check">
+				<label for="symbols">Contains Symbols</label>
+				<input type="checkbox" name="" id="symbols">
+			</div>
+			<button id="generate">Generate password</button>
+		</div>
+	</div>
+</body>
+</html>
